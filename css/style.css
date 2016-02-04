@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+body
+{
+	height:100%;
+	width:100%;
+    overflow-x: hidden;
+}
+
+.title {
+font-family: 'Lato', 'Calibri', sans-serif;
+font-weight: 300;
+color: #000000;
+text-align: center;
+font-size: 5em;
+display: inline;
+}
+
+h1 {
+	color: #000000;
+	font-family: 'Lato', 'Calibri', sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+    color: #FFD700;
+    font-family: 'Lato', 'Calibri', sans-serif;
+    font-weight: 300;
+}
+#text
+{
+    text-align: left;
+}
+#profile
+{
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#headshot
+{
+    width: 250px;
+    height: auto;
+    
+    margin-right: 25px;
+    
+    border-radius: 25px;
+}
+
+a, a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
