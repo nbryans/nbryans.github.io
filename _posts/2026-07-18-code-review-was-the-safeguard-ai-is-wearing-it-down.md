@@ -88,5 +88,5 @@ Another practice that preserves judgment and human connection is "Code Walkthrou
 
 Since AI assisted development isn't going away, the real work is watching our blind spots and accounting for the new gaps it introduces in ourselves and our processes. The tradeoff is simple to state and hard to live: time saved today against judgment lost tomorrow. What separates the teams that keep their edge from those that don't will be whether they kept reviewing as seriously as they kept shipping.
 
-This post was written by me; AI assistance was used for selected rewording and editing for verbosity.
+This post was written by me; AI assistance was used for selected rewording and editing for verbosity. Views are my own, not my employer's.
 {: .disclosure }
