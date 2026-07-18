@@ -1,0 +1,30 @@
+title: Nathan Bryans
+description: Notes on AI platforms, MLOps, software engineering, and practical systems work.
+url: "https://nathanbryans.com"
+baseurl: ""
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+show_excerpts: true
+permalink: /posts/:title/
+timezone: America/Edmonton
+
+author: Nathan Bryans
+email: me@nathanbryans.com
+github_username: nbryans
+linkedin_username: nbryans
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
