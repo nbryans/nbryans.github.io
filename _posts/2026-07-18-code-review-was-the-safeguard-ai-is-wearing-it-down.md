@@ -14,9 +14,9 @@ It was 1979, in the early days of computing, when an internal [IBM training manu
 
 In software development, one of the clearest expressions of that accountability is in the pull request (PR) review.
 
-Teams building software use PR reviews to share knowledge and changes, mentor juniors, discuss tradeoffs and, most importantly, maintain quality, accountability and a lack of harm in their shipped code. With the rise of LLM-assisted coding, and a [documented increase](https://x.com/kdaigle/status/2040164759836778878) in code output, this gate is more important than ever. Review is often cited by CTOs and AI leaders as the safeguard: there's no need to worry about AI-generated code, humans check it first.
+Teams building software use PR reviews to share knowledge and changes, mentor juniors, discuss tradeoffs and, most importantly, maintain quality, accountability, and correctness in shipped code. With the rise of LLM-assisted coding, and a [documented increase](https://x.com/kdaigle/status/2040164759836778878) in code output, this gate is more important than ever. Review is often cited by CTOs and AI leaders as the safeguard: there's no need to worry about AI-generated code, humans check it first.
 
-The reality is more complicated. [Evidence from other domains](https://arxiv.org/abs/2505.16339) shows that increased reliance on automation leads to measurable effects such as automation bias and skill erosion, as seen in radiology and aviation. Perhaps expectedly, software engineering is showing similar patterns: we are worse at reviewing code than we used to be.
+The reality is more complicated. [Evidence from other domains](https://arxiv.org/abs/2505.16339) shows that increased reliance on automation leads to measurable effects such as automation bias and skill erosion, as seen in radiology and aviation. Perhaps expectedly, early signals suggest software engineering may be following a similar pattern.
 
 I see four reasons for this:
 
@@ -41,6 +41,8 @@ This is exactly backward. AI-generated content should receive equal, if not grea
 #### 4. Context Collapse
 
 LLM-Generated code can be larger and more self-contained than human changes, making it harder to assess how a change fits the broader system. Without sufficient context brought into the review (think a new intermediate engineer approaching a review), reviews become similarly narrowly focused. Engineers evaluate what is immediately visible, but miss system-level implications.
+
+None of this is an argument against AI-assisted development. The productivity gains are real and they are here to stay. It's an argument for treating review as a discipline that has to keep pace.
 
 ---
 
