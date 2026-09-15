@@ -10,6 +10,8 @@ image: /assets/images/posts/code-review-was-the-safeguard-ai-is-wearing-it-down.
 ![Code Review Was the Safeguard. AI Is Wearing It Down.](/assets/images/posts/code-review-was-the-safeguard-ai-is-wearing-it-down.png)
 *Image: ChatGPT Image*
 
+*This article was also published in [ITNEXT on Medium](https://medium.com/itnext/code-review-was-the-safeguard-ai-is-wearing-it-down-c04c7b225813).*
+
 It was 1979, in the early days of computing, when an internal [IBM training manual included the prophetic quote](https://dotneteers.net/the-1979-ibm-presentation-reflections-on-accountability-in-the-age-of-ai/) "A computer can never be held accountable. Therefore, a computer must never make a management decision". While technology and automation have evolved dramatically since then, prudent organizations have largely upheld this principle, ensuring that humans remain accountable for outcomes.
 
 In software development, one of the clearest expressions of that accountability is in the pull request (PR) review.
