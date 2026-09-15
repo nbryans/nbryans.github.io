@@ -65,3 +65,63 @@
     height: 60px;
   }
 }
+
+/* ---- talk walkthrough: slide on the left, commentary on the right ---- */
+
+.walkthrough {
+  box-sizing: border-box;
+  width: calc(100vw - 60px);
+  max-width: 1120px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 0 15px;
+}
+
+.walkthrough-step {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 30px;
+  align-items: start;
+  margin-bottom: $spacing-unit * 1.5;
+}
+
+.walkthrough-step .slide-link {
+  display: block;
+  text-decoration: none;
+}
+
+.walkthrough-step .slide-shot {
+  cursor: zoom-in;
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+}
+
+.walkthrough-step .step-note {
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+
+  p, ul, ol {
+    @include relative-font-size(0.9375);
+    line-height: 1.6;
+  }
+
+  ul, ol { margin-left: 1.1em; }
+}
+
+@media screen and (max-width: 900px) {
+  .walkthrough {
+    width: auto;
+    max-width: none;
+    margin-left: 0;
+    transform: none;
+    padding: 0;
+  }
+
+  .walkthrough-step {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
